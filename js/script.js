@@ -29,7 +29,6 @@ window.addEventListener("scroll", (e)=>{
 })
 
 document.querySelector(".EXPERIENCE").addEventListener("click", ()=>{
-    document.querySelector(".menu").style.display="none"
     document.querySelector(".menu").classList.remove("menu_click")
     window.scrollTo({
         top: EXPERIENCE.offsetTop-50,
@@ -38,7 +37,6 @@ document.querySelector(".EXPERIENCE").addEventListener("click", ()=>{
 })
 
 document.querySelector(".EDUCATION").addEventListener("click", ()=>{
-    document.querySelector(".menu").style.display="none"
     document.querySelector(".menu").classList.remove("menu_click")
    window.scrollTo({
         top: EDUCATION.offsetTop-50,
@@ -47,7 +45,6 @@ document.querySelector(".EDUCATION").addEventListener("click", ()=>{
 })
 
 document.querySelector(".SKILLS").addEventListener("click", ()=>{
-    document.querySelector(".menu").style.display="none"
     document.querySelector(".menu").classList.remove("menu_click")
    window.scrollTo({
         top: SKILLS.offsetTop-50,
@@ -56,7 +53,6 @@ document.querySelector(".SKILLS").addEventListener("click", ()=>{
 })
 
 document.querySelector(".INTERESTS").addEventListener("click", ()=>{
-    document.querySelector(".menu").style.display="none"
     document.querySelector(".menu").classList.remove("menu_click")
    window.scrollTo({
         top: INTERESTS.offsetTop-50,
@@ -65,7 +61,6 @@ document.querySelector(".INTERESTS").addEventListener("click", ()=>{
 })
 
 document.querySelector(".PERSONAL_PROJECTS").addEventListener("click", ()=>{
-    document.querySelector(".menu").style.display="none"
     document.querySelector(".menu").classList.remove("menu_click")
    window.scrollTo({
         top: PERSONAL_PROJECTS.offsetTop-50,
@@ -74,7 +69,6 @@ document.querySelector(".PERSONAL_PROJECTS").addEventListener("click", ()=>{
 })
 
 document.querySelector(".LANGUAGES").addEventListener("click", ()=>{
-    document.querySelector(".menu").style.display="none"
     document.querySelector(".menu").classList.remove("menu_click")
    window.scrollTo({
         top: LANGUAGES.offsetTop-50,
